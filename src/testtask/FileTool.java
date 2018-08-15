@@ -30,6 +30,7 @@ public class FileTool {
         catch (IOException e)
         {
             e.printStackTrace();
+            System.out.println("ERROR");
         }
         return result;
     }
